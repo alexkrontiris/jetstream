@@ -4,6 +4,6 @@ Type=Application
 Version=1.2
 Name=jetstream
 Comment=JEt fired sTreaming
-Exec=/usr/bin/urxvt -e peerflix -n -f ~/jetstream --on-listening /usr/local/bin/vlc.sh --on-downloaded /usr/local/bin/pkill_peerflix.sh %u
+Exec=/usr/bin/xterm -e peerflix -n -f ~/jetstream --on-listening /usr/local/bin/vlc.sh --on-downloaded /usr/local/bin/pkill_peerflix.sh %u
 Terminal=false
 MimeType=x-scheme-handler/magnet;application/x-bittorrent;
