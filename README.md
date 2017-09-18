@@ -35,4 +35,4 @@ alias r-jetstream='rm -r -i ~/jetstream && echo "JEtsTream cleaned." && mkdir -v
 to erase it on demand. Modify the path if necessary. 
 
 #### NOTE
-If you are using a different terminal emulator than xterm, **replace** xterm on line **7** with your terminal emulator.
+If you are using a different terminal emulator than xterm, **replace** xterm in file `jetstream.desktop` line **7** with your terminal emulator.
